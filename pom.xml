@@ -44,6 +44,13 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<!--GraphQL SPQR-->
+		<dependency>
+			<groupId>io.leangen.graphql</groupId>
+			<artifactId>spqr</artifactId>
+			<version>0.10.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
