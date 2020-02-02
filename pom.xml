@@ -27,7 +27,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>io.leangen.graphql</groupId>
+			<artifactId>graphql-spqr-spring-boot-starter</artifactId>
+			<version>0.0.4</version>
+		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -43,13 +47,6 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
-
-		<!--GraphQL SPQR-->
-		<dependency>
-			<groupId>io.leangen.graphql</groupId>
-			<artifactId>spqr</artifactId>
-			<version>0.10.0</version>
 		</dependency>
 	</dependencies>
 
