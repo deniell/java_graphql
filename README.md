@@ -11,3 +11,8 @@ to use Java and Spring Boot to build a GraphQL API. And also test GraphQL API us
 ```
 
 > to see web UI to test your GraphQL API go to http://localhost:8080/gui in your beowser
+
+> to run tests form terminal:
+```
+./mvnw test
+```
