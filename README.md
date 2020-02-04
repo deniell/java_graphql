@@ -4,6 +4,8 @@ Simple study project powered by [this tutorial](https://developer.okta.com/blog/
 to use Java and Spring Boot to build a GraphQL API. And also test GraphQL API using JUnit 5.
 
 ## Documentation
+> edit src/main/resources/application.properties.dist (replase xxx with your okta.oauth2 client-secret)
+and remove .dist postfix
 
 > set up Okta security plugin
 ```
