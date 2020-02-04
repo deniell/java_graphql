@@ -5,6 +5,10 @@ to use Java and Spring Boot to build a GraphQL API. And also test GraphQL API us
 
 ## Documentation
 
+> set up Okta security plugin
+```
+./mvnw com.okta:okta-maven-plugin:setup
+```
 > to run the project use
 ```
  ./mvnw spring-boot:run 
